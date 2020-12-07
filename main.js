@@ -11,6 +11,7 @@ function onRadioButtonChange() {
     }
 }
 
+
 function selectboxChange() {
     const characterName = document.getElementById("characterName");
     const selindex = document.forms.form1.character;
