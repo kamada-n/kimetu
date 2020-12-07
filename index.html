@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang='ja'>
+
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="style.css" />
+
+</head>
+
+<body>
+    <p>プログラミングは楽しいですか？</p>
+    <form name="radioGroup">
+        <label><input type="radio" id="yes" name="sample" value="いいね！" onchange="onRadioButtonChange()" />はい</label>
+        <label><input type="radio" id="no" name="sample" value="むむむ" onchange="onRadioButtonChange()" />いいえ</label>
+    </form>
+
+    <div id="output"></div>
+
+
+    <p>好きな鬼滅のキャラ：</p>
+    <form name="form1" action="">
+        <select id=”character” onchange="selectboxChange();">
+            <option value=””>選択してください
+            <option value=”tannjiro”>炭治郎
+            <option value=”nezuko”>禰豆子
+            <option value=”zennitsu”>善逸
+            <option value=”inosuke”>伊之助
+            <option value=”giyu”>義勇
+        </select>
+    </form>
+    <p>好きなキャラは </p>
+    <ul class="list">
+
+    </ul>
+
+    <div id="characterName"></div>
+    <img src="" id="characterImage" />
+    <div id="breath"></div>
+    <script src="main.js" defer></script>
+</body>
+
+</html>
